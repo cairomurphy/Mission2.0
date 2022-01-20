@@ -1,0 +1,34 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Calculator Page";
+}
+
+@model Class;
+<!--This form will take as input a number for a percentage grade for grade categories based on pre-determined weights-->
+<h3 class="align-left">Input grade percentages below without "%" (ie 95,78,63):</h3>
+<h5 class="align-left">P.S. Look for answer below</h5>
+<br />
+<form class="align-left" method="post">
+    <!--Weights-->
+    <label>Assignments</label>    <!--55-->
+    <input id="txtAssignment" asp-for="Assignment"/><br />
+    <label>GroupProject</label>  <!--5-->
+    <input id="txtGroupProject" asp-for="GroupProject"/><br />
+    <label>Quizzes</label>        <!--10-->
+    <input id="txtQuiz" asp-for="Quiz"/><br />
+    <label>Exams</label>          <!--20-->
+    <input id="txtExam" asp-for="Exam"/><br />
+    <label>INTEX</label>          <!--10-->
+    <input id="txtINTEX" asp-for="INTEX"/><br />
+    <input id="btnSend" type="button" value="Send Message" />
+
+    <div asp-validation-summary="All"></div>
+</form>
+
+<p id="output" class="big">*Your answer will appear here*</p>
+
+
+<script src="~/js/JavaScript.js"></script>
+

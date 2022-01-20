@@ -11,6 +11,8 @@ var exam = 0
 var intex = 0
 var finalPercentage = ""
 var finalLetterGrade = ""
+var result = ""
+
 
 //this code pulls the input
 
@@ -67,7 +69,8 @@ $("#btnSend").click(function () {
     }
 
     //output
-    output = `Your final percentage is: ${finalPercentage}. Your final letter grade is: ${finalLetterGrade}`
-    document.getElementById("output").innerHTML = output
+    
+    output = `Your final percentage is: ${finalPercentage}. Your final letter grade is: ${finalLetterGrade}`;
+    document.getElementById("output").innerHTML = output;
     return output;
 })
