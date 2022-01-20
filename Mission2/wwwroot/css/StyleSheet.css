@@ -1,0 +1,30 @@
+﻿body {
+    text-align: center;
+    background-color: ThreeDLightShadow;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+}
+
+.resize_image {
+    width: 50%;
+    height: 50%;
+}
+
+ol {
+    text-align: left;
+}
+
+.align-left {
+    text-align: left;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+.big {
+    font-size: 50px;
+}
