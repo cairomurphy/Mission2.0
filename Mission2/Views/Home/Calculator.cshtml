@@ -13,22 +13,22 @@
 <form class="align-left" method="post">
     <!--Weights-->
     <label>Assignments</label>    <!--55-->
-    <input id="txtAssignment" asp-for="Assignment"/><br />
+    <input id="txtAssignment" asp-for="Assignment" /><br />
     <label>GroupProject</label>  <!--5-->
-    <input id="txtGroupProject" asp-for="GroupProject"/><br />
+    <input id="txtGroupProject" asp-for="GroupProject" /><br />
     <label>Quizzes</label>        <!--10-->
-    <input id="txtQuiz" asp-for="Quiz"/><br />
+    <input id="txtQuiz" asp-for="Quiz" /><br />
     <label>Exams</label>          <!--20-->
-    <input id="txtExam" asp-for="Exam"/><br />
+    <input id="txtExam" asp-for="Exam" /><br />
     <label>INTEX</label>          <!--10-->
-    <input id="txtINTEX" asp-for="INTEX"/><br />
-    <input id="btnSend" type="button" value="Send Message" />
+    <input id="txtINTEX" asp-for="INTEX" /><br />
+    <input id="btnSend" type="submit" value="Send Message" />
 
     <div asp-validation-summary="All"></div>
 </form>
 
 <p id="output" class="big">*Your answer will appear here*</p>
 
+<script src = "~/js/JavaScript.js" ></script >
 
-<script src="~/js/JavaScript.js"></script>
 
